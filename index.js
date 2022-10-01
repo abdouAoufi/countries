@@ -1,1 +1,0 @@
-Console.log("Khaled isn't mahbol after all")
