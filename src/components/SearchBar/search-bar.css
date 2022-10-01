@@ -1,0 +1,18 @@
+#nav-icon{
+ height: 25px;
+ width: 25px;
+}
+
+#search-container{
+ display: flex;
+ width: 16rem;
+ border: 2px solid #c4c4c4;
+ padding: .5rem;
+ gap: 12px;
+ border-radius: 6px;
+}
+
+#search-container input {
+ border: 0;
+ flex: 1;
+}

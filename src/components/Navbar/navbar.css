@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem ;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+#logo{
+
+}
+
+#dark-mode{
+
+}
