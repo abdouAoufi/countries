@@ -1,0 +1,21 @@
+.country {
+  padding: 0.8rem;
+  width: auto;
+  /* border: 2px solid #c5c5c5; */
+}
+
+.country img {
+  height: 140px;
+  width: 210px;
+}
+
+.country ul {
+  padding: 12px 0;
+  font-weight: 500;
+  list-style: none;
+}
+
+
+.country div {
+ padding: 12px;
+}

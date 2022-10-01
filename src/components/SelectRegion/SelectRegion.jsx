@@ -3,9 +3,10 @@ import "./select-region.css";
 
 const regions = ["Africa", "America", "Europe", "Asia", "Oceania"];
 
-const SelectRegion = () => {
+const SelectRegion = (props) => {
   const [hidden, setHidden] = useState(true);
-  const [selectedCountry, setSelectedCountry] = useState("Select Region");
+  const { selectedCountry, setSelectedCountry } = props;
+
   return (
     <div>
       <div>
@@ -15,7 +16,7 @@ const SelectRegion = () => {
             setHidden(!hidden);
           }}
         >
-          {selectedCountry}
+          {selectedCountry || "Select region"}
         </p>
       </div>
       {!hidden && (

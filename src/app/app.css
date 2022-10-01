@@ -1,6 +1,12 @@
-#search-select{
- display: flex;
- justify-content: space-between;
- align-items: baseline;
- padding: 1.5rem 3rem;
+#search-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.5rem 3rem;
+}
+
+.country-container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
