@@ -1,0 +1,6 @@
+#search-select{
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline;
+ padding: 1.5rem 3rem;
+}

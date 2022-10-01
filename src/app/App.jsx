@@ -1,11 +1,16 @@
 import Navbar from "../components/Navbar/Navbar";
 import SearchBar from "../components/SearchBar/SearchBar";
+import SelectRegion from "../components/SelectRegion/SelectRegion";
+import "./app.css"
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <SearchBar />
+      <div id="search-select">
+        <SearchBar />
+        <SelectRegion />
+      </div>
     </div>
   );
 };
